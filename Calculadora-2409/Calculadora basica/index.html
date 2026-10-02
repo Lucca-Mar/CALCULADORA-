@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>calculadora</title>
+</head>
+<body>
+  <center><h1>calculadora</h1>
+ Primeiro numero:<br />
+ <input type="number" id="n1"><br />
+ Segundo numero:<br />
+ <input type="number" id="n2"><br /><br />
+
+ <button onclick="somar()">+</button>
+
+ <button onclick="subtrair()">-</button>
+
+ <button onclick="multiplicacao()">X</button>
+
+ <button onclick="divisao()">/</button>
+
+<button onclick="porcentagem()">%</button>
+
+<button onclick="limpar()">C</button>
+
+<br />
+
+ <button onclick="inserir('1')">1</button>  
+ <button onclick="inserir('2')">2</button>
+ <button onclick="inserir('3')">3</button> <button onclick="areaquadrado()"> □</button> <br />
+ <button onclick="inserir('4')">4</button>
+ <button onclick="inserir('5')">5</button>
+ <button onclick="inserir('6')">6</button> <button onclick="areatriangulo()">△</button> <br />
+ <button onclick="inserir('7')">7</button>
+ <button onclick="inserir('8')">8</button>
+ <button onclick="inserir('9')">9</button> <button onclick="arearetangulo()">▭</button> <br />
+ <button onclick="inserir('0')">0</button><br><br>
+
+ <button onclick="PrimeiroNumero()">Anterior</button> <button onclick="segundoNumero()">Próximo</button>  <br /><br /> 
+
+ <br /><br />
+ O resultado é: <span id="resultado"></span></center> 
+
+ <script src="js/calculo.js"></script>
+ 
+ </body>
+ </html>
